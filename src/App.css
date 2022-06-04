@@ -1,38 +1,59 @@
-.App {
+#img1{
+  width: 100%;
+  height:500px;
+}
+#img2{
+  width:100%;
+  height:400px;
+  box-shadow: 0 0 20px 8px grey;
+  border-radius: 10px;
+}
+.row{
+  padding:20px;
+}
+#head1{
+  color:Red;
   text-align: center;
+  font-family: 'Bebas Neue', cursive;
+  padding:5px;
+  
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#p1,#p2{
+  font-size: 20px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.head2{
+  font-family: 'Bebas Neue', cursive;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+#mhead{
+  font-family: 'Bebas Neue', cursive;
+  font-size: 200px;
+  color: #ff3700;
+}
+#item img{
+  width:100%;
+}
+#Himg1,#Himg2,#Himg3,#Himg4{
+  width: auto;
+  height:500px;
+}
+h3{
+  color:white;
+  text-shadow: 2px 2px black;
+}
+.form{
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding:20px;
+  margin:0 auto;
+  box-shadow:0 0 16px 10px grey;
+  width: 50%;
+  margin-top: 10%;
 }
-
-.App-link {
-  color: #61dafb;
+.sform{
+  align-items: center;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+td{
+  color:black;
+}
+Link{
+  color:white;
 }
